@@ -1,0 +1,408 @@
+* {
+    font-family: 'Urbanist','Comfortaa', sans-serif;
+    margin: 0 0;
+    color: rgb(85, 85, 85);
+}
+
+header {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 64px;
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 1px solid darkgray;
+}
+
+header .toplogo {
+    display: flex;
+    margin-left: 24px;
+}
+
+header .toplogo p {
+    margin: 0;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-weight: 900;
+    color: rgb(8, 8, 8) !important;
+}
+
+header .toplogo .academy {
+    color: gray;
+    font-weight: 600;
+}
+
+header .linktree {
+    display: flex;
+    margin-left: 24px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .linktree a {
+    margin: 12px;
+    font-size: 18px;
+}
+
+header .linktree a:hover {
+    text-decoration: underline;
+}
+
+.banner {
+    background-color: lightgray;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 64px;
+}
+
+.banner .bannerimg {
+    width: 60%;
+    height: auto;
+    padding: 48px 30px;
+    flex-shrink: 1;
+}
+
+.banner .bannerimg img {
+    width: 100%;
+    height: auto;
+}
+
+.banner .bannerright {
+    margin-left: 24px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    
+}
+
+.banner .bannerright h1 {
+    font-size: 56px;
+    font-weight: 900;
+    margin-bottom: 48px;
+}
+
+.banner .bannerright h2 {
+    font-size: 32px;
+    margin-bottom: 48px;
+}
+
+.banner .bannerright .start {
+    background-color: rgb(66, 66, 66);
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 16px;
+    border-radius: 5rem;
+    transition: padding 450ms linear;
+}
+
+.banner ,.bannerright .start a {
+    color: white;
+}
+
+.banner .bannerright .start:hover {
+    background-color: rgb(49, 49, 49);
+    padding: 24px;
+}
+
+.midinfo {
+    width: 100%;
+    display: inline-flex;
+    height: auto;
+    flex-direction: row;
+    flex-shrink: 1;
+}
+
+.midinfo .practicecon {
+    width: 60%;
+    display: flex;
+    margin: 48px 30px;
+    flex-direction: column;
+    flex-shrink: 1;
+    height: auto;
+}
+
+.midinfo .practicecon .pcimg {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.midinfo .practicecon .pccap {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+}
+
+.midinfo .practicecon img {
+    width: 100%;
+    height: auto;
+}
+
+.midinfo .practicecon .pccap h1 {
+    margin-top: 64px;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+.midinfo .practicecon .pccap p {
+    margin-top: 48px;
+    font-size: 1.3rem;
+}
+
+.midinfo .practicecon .pccap .qtesrc {
+    font-size: 1.125rem;
+    float: bottom;
+}
+
+.midinfo .midtree {
+    display: inline-flex;
+    width: 40%;
+    flex-shrink: 1;
+    flex-direction: column;
+    border-left: 1px solid rgba(169,169,169,.7);
+    justify-content: space-between;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    height: auto;
+}
+
+.midinfo .midtree .midlinks {
+    display: inline-flex;
+    width: 100%;
+    transition: all 300ms ease-out;
+}
+
+.midinfo .midtree .midlinks:hover {
+    background-color: rgba(211,211,211,.7);
+    border-top: 1px solid rgba(169,169,169,.7);
+    border-bottom: 1px solid rgba(169,169,169,.7);
+}
+
+.midinfo .midtree .midlinks .midimgs {
+    display: flex;
+    width: 35%;
+    height: auto;
+    margin-left: 28px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.midinfo .midtree .midlinks .midimgtxt {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-left: 28px;
+    justify-content: center;
+    line-height: 36px;
+}
+
+.midinfo .midtree .midlinks .midimgtxt h2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.midinfo .midtree .midlinks .midimgtxt p {
+    font-size: 1.3rem;
+    margin-top: 16px;
+    font-weight: 500;
+    padding-right: 20%;
+}
+
+.midinfo .midtree .midlinks .midimgtxt a {
+    font-size: 1.3rem;
+    margin-top: 16px;
+    color: cornflowerblue;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.slsec {
+    background-color: lightgray;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.slsec h1 {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 48px;
+    
+}
+
+.slsec .slcon {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: auto;
+    margin: 16px 120px;
+    text-align: left;
+}
+
+.slsec .slcon .courses {
+    display: inline-flex;
+    flex-flow: row wrap;
+    width: 500px;
+    margin: 48px 24px;
+    background-color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.slsec .slcon .courses .courseimg {
+    width: 100%;
+    height: auto;
+
+}
+
+.slsec .slcon .courses .courseimg img {
+    width: 100%;
+}
+
+.slsec .slcon .courses .coursetxt {
+    margin-bottom: 24px;
+    width: 70%;
+}
+
+.slsec .slcon .courses h2 {
+    margin: 18px 16px;
+    font-size: 2rem;
+}
+
+.slsec .slcon .courses p {
+    margin: 16px;
+    font-size: 1.25rem;
+    line-height: 32px;
+}
+
+.thesis {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column
+}
+
+.thesis h1 {
+    text-align: center;
+    padding: 48px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.thesis .thesiscon {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.thesis .vidcon {
+    width: 60%;
+    display: flex;
+    margin: 48px 30px;
+    flex-direction: column;
+    flex-shrink: 1;
+    height: auto;
+}
+
+.thesis .vidcon .video {
+    width: 100%;
+    overflow: hidden;
+}
+
+.thesis .vidcon .video video {
+    width: 100%;
+}
+
+.thesis .vidcon .vidtxt {
+    padding: 24px 24px 32px 12px;
+}
+
+.thesis .vidcon .vidtxt h2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.thesis .vidcon .vidtxt p {
+    font-size: 1.55rem;
+    font-weight: 500;
+    margin-top: 16px;
+}
+
+.thesis .thesisright {
+    width: 40%;
+    flex-direction: column;
+}
+
+.thesis .thesisright .rightitem {
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: row;
+    display: inline-flex;
+    transition: background-color 300ms ease-out;
+}
+
+.thesis .thesisright .rightitem:hover {
+    background-color: rgba(211,211,211,.7);
+}
+
+.thesis .thesisright .rightitem .rightimg {
+    width: 35%;
+    height: auto;
+    padding: 28px;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.thesis .thesisright .rightitem .righttxt  {
+    padding: 28px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.thesis .thesisright .rightitem .righttxt h2 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.thesis .thesisright .rightitem .righttxt p {
+    font-size: 1.55rem;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+footer {
+    border-top: 1px solid rgba(169,169,169,.7);
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+footer .ccinfo {
+    padding: 32px 0px 64px 24px;
+    display: flex;
+}
+
+footer .footlinks {
+    display: flex;
+    padding: 32px 24px 64px 0px;
+}
+
+footer .footlinks a {
+    padding-left: 24px;
+}
+
+footer .footlinks a:hover {
+    text-decoration: underline;
+}
